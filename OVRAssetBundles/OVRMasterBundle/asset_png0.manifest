@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 3332887112
+CRC: 3378001942
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 3cc9e05702eb4a5fc16067a8bfb9120c
+    Hash: 7e5af3a67967dbddf1106ca14371d070
   TypeTreeHash:
     serializedVersion: 2
     Hash: f19fbf085e00d23fbc8d6cf7b345590b
@@ -13,4 +13,8 @@ ClassTypes:
   Script: {instanceID: 0}
 Assets:
 - Assets/Oculus/VR/Textures/OculusTouchForRift/touchController_albedo.png
+- Assets/SampleScenes/Textures/SwatchNavyDarkAlbedo.png
+- Assets/SampleScenes/Textures/GridEmissive.png
+- Assets/SampleScenes/Textures/SwatchNavyAlbedo.png
+- Assets/SampleScenes/Textures/SwatchWhiteAlbedo.png
 Dependencies: []

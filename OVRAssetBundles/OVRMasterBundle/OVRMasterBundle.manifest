@@ -1,5 +1,5 @@
 ManifestFileVersion: 0
-CRC: 2492466470
+CRC: 2575920149
 AssetBundleManifest:
   AssetBundleInfos:
     Info_0:
@@ -9,13 +9,15 @@ AssetBundleManifest:
       Name: scene_flyingscene
       Dependencies:
         Dependency_0: asset_prefab0
+        Dependency_1: asset_fbx0
     Info_2:
-      Name: asset_png0
-      Dependencies: {}
-    Info_3:
-      Name: asset_fbx0
+      Name: asset_prefab0
       Dependencies:
         Dependency_0: asset_mat0
+        Dependency_1: asset_fbx0
+    Info_3:
+      Name: asset_png0
+      Dependencies: {}
     Info_4:
       Name: asset_mat0
       Dependencies:
@@ -23,13 +25,12 @@ AssetBundleManifest:
         Dependency_1: asset_tif0
         Dependency_2: asset_tga0
     Info_5:
+      Name: asset_fbx0
+      Dependencies:
+        Dependency_0: asset_mat0
+    Info_6:
       Name: asset_tif0
       Dependencies: {}
-    Info_6:
+    Info_7:
       Name: asset_tga0
       Dependencies: {}
-    Info_7:
-      Name: asset_prefab0
-      Dependencies:
-        Dependency_0: asset_fbx0
-        Dependency_1: asset_mat0

@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 1362809942
+CRC: 4061647376
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 28733689cc27a4892ce145430e3c83ec
+    Hash: c9a982dcba8ec64c71b14577d735c94b
   TypeTreeHash:
     serializedVersion: 2
     Hash: 2164263bd948184a9373784f776f453a
@@ -16,7 +16,11 @@ ClassTypes:
 - Class: 48
   Script: {instanceID: 0}
 Assets:
+- Assets/SampleScenes/Materials/NavyGrid.mat
+- Assets/SampleScenes/Materials/WhiteSmooth.mat
+- Assets/SampleScenes/Materials/NavyDarkGrid.mat
 - Assets/Oculus/VR/Meshes/OculusTouchForRift/Materials/OculusTouchForRift_Material.mat
+- Assets/SampleScenes/Materials/NavySmooth.mat
 - Assets/Oculus/VR/Materials/GearVrController/GearVrControllerMat_128.mat
 - Assets/Oculus/VR/Meshes/OculusGoController/Materials/OculusGoControllerMat.mat
 - Assets/Oculus/VR/Meshes/OculusTouchForQuestAndRiftS/Materials/OculusTouchForQuestAndRiftS_Material.mat

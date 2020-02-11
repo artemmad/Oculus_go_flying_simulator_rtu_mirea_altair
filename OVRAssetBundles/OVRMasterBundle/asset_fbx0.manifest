@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 1039841631
+CRC: 1545243149
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: d09420290322af0ac3e98323f33c8a80
+    Hash: e440b0f647bcfa612230a5ae19ee07a0
   TypeTreeHash:
     serializedVersion: 2
     Hash: ef49f4d49e6e1ea799658f723c29f9be
@@ -32,6 +32,7 @@ ClassTypes:
 Assets:
 - Assets/Oculus/VR/Meshes/OculusTouchForQuestAndRiftS/OculusTouchForQuestAndRiftS_Right.fbx
 - Assets/Oculus/VR/Meshes/GearVrController/GearVrController.fbx
+- Assets/SampleScenes/Models/GroundRunway.FBX
 - Assets/Oculus/VR/Meshes/OculusTouchForRift/left_touch_controller_model_skel.fbx
 - Assets/Oculus/VR/Meshes/OculusTouchForQuestAndRiftS/OculusTouchForQuestAndRiftS_Left.fbx
 - Assets/Oculus/VR/Meshes/OculusTouchForRift/right_touch_controller_model_skel.fbx

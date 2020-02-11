@@ -1,12 +1,12 @@
 ManifestFileVersion: 0
-CRC: 245878541
+CRC: 376089811
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 92906ab5cb3a5d0d36c3653cb82a4268
+    Hash: 8aec3f6289cd783449827135e3c660e0
   TypeTreeHash:
     serializedVersion: 2
-    Hash: 08547b481e1275f4d6992b33964d6560
+    Hash: d273d08ed085a46d7fe783537339ad4f
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -26,6 +26,8 @@ ClassTypes:
 - Class: 43
   Script: {instanceID: 0}
 - Class: 48
+  Script: {instanceID: 0}
+- Class: 64
   Script: {instanceID: 0}
 - Class: 65
   Script: {instanceID: 0}
@@ -59,6 +61,10 @@ ClassTypes:
   Script: {fileID: 11500000, guid: 7acc4619d4cb5e64e9ed05e5a7a8099f, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 0905a265d71897a42b8b4e5c8e054471, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 88796bf57ce31bb4c91dce201fddec3a, type: 3}
 - Class: 115
   Script: {instanceID: 0}
 - Class: 128
@@ -83,3 +89,4 @@ Assets:
 - Assets/Scenes/FlyingScene.unity
 Dependencies:
 - D:/Projects/GitHub/Oculus_go_flying_simulator_rtu_mirea_altair/OVRAssetBundles/OVRMasterBundle/asset_prefab0
+- D:/Projects/GitHub/Oculus_go_flying_simulator_rtu_mirea_altair/OVRAssetBundles/OVRMasterBundle/asset_fbx0
