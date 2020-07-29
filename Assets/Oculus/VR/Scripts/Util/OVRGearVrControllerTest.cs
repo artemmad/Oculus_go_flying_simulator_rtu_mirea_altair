@@ -22,6 +22,7 @@ using System.Text;
 
 public class OVRGearVrControllerTest : MonoBehaviour
 {
+	public GameObject aircraft;
 	public class BoolMonitor
 	{
 		public delegate bool BoolGenerator();
@@ -169,6 +170,8 @@ public class OVRGearVrControllerTest : MonoBehaviour
 
 		Quaternion rot = OVRInput.GetLocalControllerRotation(activeController);
 		data.AppendFormat("Orientation: ({0:F2}, {1:F2}, {2:F2}, {3:F2})\n", rot.x, rot.y, rot.z, rot.w);
+		// ??????? ??????? ??????????? ??????????? ???? // zdes figachim peredachu povorotov na aircraft
+		aircraft.transform.rotation =  new Quaternion (rot.x, aircraft.transform.rotation.y, rot.z, aircraft.transform.rotation.w);
 
 		Vector3 angVel = OVRInput.GetLocalControllerAngularVelocity(activeController);
 		data.AppendFormat("AngVel: ({0:F2}, {1:F2}, {2:F2})\n", angVel.x, angVel.y, angVel.z);
